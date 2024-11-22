@@ -146,7 +146,7 @@ checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 [[package]]
 name = "hippomenes-core"
 version = "0.1.0"
-source = "git+https://github.com/onsdagens/hippomenes-core#67fb70a7cd910e44e6d94233813d6ad04a06b83c"
+source = "git+https://github.com/onsdagens/hippomenes-core?branch=mpu#25f97e1887c4c14a055f5bb2c10b15fdd76cba3b"
 dependencies = [
  "const_format",
  "critical-section",
@@ -156,7 +156,7 @@ dependencies = [
 [[package]]
 name = "hippomenes-derive"
 version = "0.1.0"
-source = "git+https://github.com/onsdagens/hippomenes-core#67fb70a7cd910e44e6d94233813d6ad04a06b83c"
+source = "git+https://github.com/onsdagens/hippomenes-core?branch=mpu#25f97e1887c4c14a055f5bb2c10b15fdd76cba3b"
 dependencies = [
  "proc-macro2",
  "quote",

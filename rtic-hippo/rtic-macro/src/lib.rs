@@ -59,7 +59,6 @@ impl CorePassBackend for HippoRtic {
                     );
                 }
             });
-
         Some(quote! {
             unsafe {
                 #(#initialize_dispatcher_interrupts)*
